@@ -33,16 +33,12 @@ Book book1;
 // Assigning values to the fields
 // for the structure object book2
 Book book2
-	= Book("nejaka kniha",
-			"kdokoliv ",
-			576213, false);
+	= Book("nejaka kniha","kdokoliv ", 576213, false);
 
 // Defining a function to set values
 // for the fields for structure book1
 function set_book1_detail() public {
-	book1 = Book("prvni kniha",
-				"nejaky autor",
-					2, true);
+	book1 = Book("prvni kniha","nejaky autor",2, true);
 }
 
 
