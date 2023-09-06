@@ -43,8 +43,9 @@ contract StructExamples {
     //Complete function get(uint _index). This function retrieves the Car struct stored at index _index from the array cars 
     //and then return the values stored in the struct.
     function get(uint _index) external view returns (string memory model, uint year, address owner) {
-        Car storage ar = cars[_index];
-        return (ar.model, ar.year, ar.owner);
+        //Car storage ar = cars[_index];
+        //return (ar.model, ar.year, ar.owner);
+        return (cars[_index].model, cars[_index].year, cars[_index].owner);
     }
 
     //Complete function transfer(uint _index, address _owner). 
