@@ -2,6 +2,6 @@
 my solidity learning path notes
         
 
-sources:   
+sources:   (TODO)        
 Smart contract engineer https://www.smartcontract.engineer/challenges     
 Alchemy - Learn Solidity  https://university.alchemy.com/overview/solidity
